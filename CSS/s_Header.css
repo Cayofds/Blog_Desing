@@ -29,7 +29,7 @@ nav ul li{
     list-style: none;
     display: flex;
     font-size: 20px;
-    border-left: 2px solid var(--lilas);
+    border-right: 2px solid var(--lilas);
 }
 nav ul li a{
     text-decoration: none;

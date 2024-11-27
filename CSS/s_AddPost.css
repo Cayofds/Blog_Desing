@@ -1,0 +1,68 @@
+@import url('cores.css');
+
+*{
+    padding: 0;margin: 0;
+}
+
+body{
+    background-color: var(--lilas);
+    align-items: center;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+form{
+    width: 300px; height: 430px;
+    padding: 30px 50px;
+    font-size: 20px;
+    background-color: var(--lilas_escuro);
+    border: 10px solid var(--roxo);
+    border-radius: 30px;
+    vertical-align: middle;
+    color: var(--lilas);
+}
+
+form input[type="text"]{
+    width: 100%;
+    height: 20px;
+    margin-bottom: 10px;
+    border: 2px solid var(--lilas);
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+form textarea{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    border: 2px solid var(--lilas);
+    border-radius: 20px;
+    padding: 10px;
+    resize: none;
+}
+
+/* form label[name="l_Img"]{
+} */
+
+form .botao{
+    width: 100%;
+    padding: 7px 5px;
+    background-color: var(--roxo);
+    color: var(--lilas);
+    border: 2px solid var(--lilas);
+    border-radius: 10px;
+    margin-top: 5px;
+    transition: 0.35s;
+}
+form .botao:hover{
+    background-color: var(--lilas);
+    border-color: var(--roxo);
+    color: var(--roxo);
+    transform: scale(1.05,1.05);
+}

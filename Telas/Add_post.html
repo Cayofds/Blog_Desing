@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Blog - Adicionar Posts</title>
+    <link rel="stylesheet" href="../CSS/s_AddPost.css">
 </head>
 <body>
     <script>
-        // Carrega o header
         document.write("<div id='header-container'></div>")
         document.addEventListener("DOMContentLoaded", function () {
         fetch("../Partes/header.html")
@@ -18,5 +18,17 @@
             .catch(error => console.error('Erro ao carregar o header:', error));
         });
     </script>
+    <main>
+        <form action="../PHP/addPost.php" method="post">
+            <label for="i_Titulo">Titulo:</label>
+            <input name="Titulo" id="i_Titulo" type="text">
+            <label for="i_Desc">Descrição:</label>
+            <textarea name="Descricao" id="i_Desc" resize="none"></textarea>
+            <label name="l_Img" for="i_Img">Escolha uma imagem:</label>
+            <input type="file" name="Imagem" id="i_Img" accept=".jpg, .png, .jpeg">
+            <input class="botao" type="reset" value="Limpar">
+            <input class="botao" type="submit" value="Postar">
+        </form>
+    </main>
 </body>
 </html>
