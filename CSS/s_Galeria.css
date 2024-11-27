@@ -4,17 +4,9 @@
     --imgHeight-Hover:325px;
     --imgWidth:600px;
     --imgWidth-Hover:625px;
-
-    /*COLORS*/
-    --roxo:rgb(40, 40, 75);
-    --roxo_escuro:rgb(30, 30, 49);
-    --lilas:rgb(200, 200, 255);
-    --lilas_escuro:rgb(87, 73, 114);
-    --ciano:rgb(190, 255, 255);
-    --azul:rgb(86, 215, 255);
-    --transparente_roxo:rgba(0, 0, 0, 0.329);
-    --transparente_azul:rgba(3, 53, 97, 0.486);
 }
+
+@import url('cores.css');
 
 *{
     padding: 0;margin: 0;

@@ -1,0 +1,11 @@
+:root{
+    --roxo:rgb(40, 40, 75);
+    --roxo_escuro:rgb(40, 40, 75);
+    --lilas:rgb(200, 200, 255);
+    --lilas_escuro:rgb(87, 73, 114);
+    --ciano:rgb(190, 255, 255);
+    --azul:rgb(86, 215, 255);
+    --transparente_roxo:rgba(0, 0, 0, 0.329);
+    --transparente_roxo_escuro:rgba(0, 0, 0, 0.8);
+    --transparente_azul:rgba(3, 53, 97, 0.486);
+}
