@@ -13,15 +13,15 @@ main{
     width: 100%;
     display: flex;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
 form{
-    width: 300px; height: 430px;
-    padding: 30px 50px;
+    width: 400px; height: 420px;
+    padding: 20px 50px;
     font-size: 20px;
     background-color: var(--lilas_escuro);
-    border: 10px solid var(--roxo);
+    border: 5px solid var(--roxo);
     border-radius: 30px;
     vertical-align: middle;
     color: var(--lilas);
@@ -32,18 +32,18 @@ form input[type="text"]{
     height: 20px;
     margin-bottom: 10px;
     border: 2px solid var(--lilas);
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 5px;
     font-size: 16px;
 }
 
 form textarea{
     width: 100%;
-    height: 200px;
+    height: 100px;
     margin-bottom: 10px;
     border: 2px solid var(--lilas);
     border-radius: 20px;
-    padding: 10px;
+    padding: 5px;
     resize: none;
 }
 
@@ -52,13 +52,14 @@ form textarea{
 
 form .botao{
     width: 100%;
-    padding: 7px 5px;
+    padding: 15px 5px;
     background-color: var(--roxo);
     color: var(--lilas);
     border: 2px solid var(--lilas);
     border-radius: 10px;
-    margin-top: 5px;
+    margin-top: 15px;
     transition: 0.35s;
+    font-size: 20px;
 }
 form .botao:hover{
     background-color: var(--lilas);
